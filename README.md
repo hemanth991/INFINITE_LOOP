@@ -2,7 +2,7 @@
 
 **Srujana Tech Fest 2026 - Finance F-02: Multi-Goal Financial Planning Under Uncertainty**
 
-[Detailed project report (PDF)](docs/GoalPulse_Detailed_Project_Report.pdf) | [Report source](docs/GoalPulse_Detailed_Project_Report.md) | [Team contributions](docs/CONTRIBUTIONS.md) | [Verification](docs/VERIFICATION.md)
+[Detailed project report (PDF)](docs/GoalPulse_Detailed_Project_Report.pdf) | [Earlier generated draft](docs/GoalPulse_Detailed_Project_Report.md) | [Team contributions](docs/CONTRIBUTIONS.md) | [Verification](docs/VERIFICATION.md)
 
 A multi-goal planning simulator with a JavaScript calculation engine and a Python/FastAPI backend.
 
