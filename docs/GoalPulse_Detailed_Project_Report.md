@@ -53,7 +53,7 @@ A vanilla JavaScript interface and financial engine run locally in the browser. 
 
 - **EXTERNAL LIMIT**: Gemini returned HTTP 503 during live probes. OpenAI reported no API credits. Successful cloud-generated advice is not demonstrated.
 
-- **PUBLICATION STATUS**: The existing team repository was reachable anonymously and initially contained only README.md. A clean, secret-excluding source/report package is prepared separately; publication must be verified after upload.
+- **PUBLICATION STATUS**: The team repository is public. The source, README and report were published and verified anonymously with HTTP 200 responses on 26 October 2026. Private databases and keys are excluded.
 
 INFINITE LOOP / SRUJANA 2026 / 03
 
@@ -496,7 +496,7 @@ References and acknowledgements
 Submission access
 
 Public repository: <link href="https://github.com/hemanth991/INFINITE_LOOP" color="#236c63">https://github.com/hemanth991/INFINITE_LOOP</link>
-Intended report path after publication: docs/GoalPulse_Detailed_Project_Report.pdf
+Published report path: docs/GoalPulse_Detailed_Project_Report.pdf
 Final form: <link href="https://forms.cloud.microsoft/r/36PTFZEVhD" color="#236c63">https://forms.cloud.microsoft/r/36PTFZEVhD</link>
 
 Before submitting, verify the latest source and report are actually present in the public repository and readable without sign-in. The form deadline is 10:00 AM IST, 26 October 2026. This document is evidence of preparation; it is not itself confirmation that the form was submitted.
