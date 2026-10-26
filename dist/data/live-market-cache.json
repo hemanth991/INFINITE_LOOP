@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "timestamp": "2026-10-25T04:30:35.857Z",
+  "live": true,
+  "navs": {
+    "nifty": {
+      "name": "UTI Nifty 50 Index Fund - Direct Plan - Growth",
+      "nav": 159.177,
+      "date": "23-10-2026",
+      "monthlyRet": -0.031127694152449033
+    },
+    "gilt": {
+      "name": "ICICI Prudential Technology Fund - Direct Plan - Growth",
+      "nav": 203.85,
+      "date": "23-10-2026",
+      "monthlyRet": 0.03053435114503813
+    },
+    "arbitrage": {
+      "name": "Kotak Mid Cap Fund - Direct Plan - Growth",
+      "nav": 150.905,
+      "date": "23-10-2026",
+      "monthlyRet": -0.10574284884651165
+    },
+    "gold": {
+      "name": "HDFC Gold ETF Fund of Fund - Direct Plan - Growth Option",
+      "nav": 43.6921,
+      "date": "23-10-2026",
+      "monthlyRet": -0.07368012652806806
+    },
+    "usdinr": {
+      "rate": 94.94,
+      "date": "2026-10-25"
+    }
+  }
+}

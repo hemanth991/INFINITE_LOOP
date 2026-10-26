@@ -1,0 +1,1 @@
+{"name":"goalpulse","version":"1.1.0","type":"module","private":true,"scripts":{"start":"node start.mjs","test":"node --test tests/*.test.mjs","build":"node check.mjs"}}

@@ -1,0 +1,12 @@
+import {spawn} from 'node:child_process';
+import {existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root = fileURLToPath(new URL('.', import.meta.url));
+const venv = path.join(root, '.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python');
+const python = process.env.PYTHON || (existsSync(venv) ? venv : process.platform === 'win32' ? 'python' : 'python3');
+const child = spawn(python, ['run_backend.py'], {cwd: root, env: process.env, stdio: 'inherit'});
+child.on('error', error => { console.error('Could not start Python backend:', error.message, '\nInstall requirements.txt in a Python 3.11+ virtual environment.'); process.exitCode = 1; });
+child.on('exit', code => { process.exitCode = code ?? 1; });
+process.on('SIGINT', () => child.kill('SIGINT'));
+process.on('SIGTERM', () => child.kill('SIGTERM'));

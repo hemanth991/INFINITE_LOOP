@@ -1,0 +1,12 @@
+.git
+.venv
+var
+var-test
+.qa-tests*
+.pytest_cache
+**/__pycache__
+.env
+qa
+tests
+*.zip
+dist/data/families*
